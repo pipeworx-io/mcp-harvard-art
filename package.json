@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-harvard-art",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Harvard Art Museums MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-694de9072169c6bf2f02758e7099774b78f68309a1385d6bc09fe76d4c6d3861",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-a62c8faa2c1051d0bcc20c6e7b8ac627a18b57a3053e28c1c13d373875a8b271",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
