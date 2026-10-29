@@ -1,0 +1,50 @@
+[
+  {
+    "name": "search",
+    "description": "Search the Harvard Art Museums collection by keyword. Returns matching items with ids (pass an id to object), titles, creators, dates and image links.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Keyword(s), e.g. \"rembrandt\", \"ceramics\", \"moon landing\"."
+        },
+        "limit": {
+          "type": "number",
+          "description": "Max results (1-100, default 20)."
+        },
+        "page": {
+          "type": "number",
+          "description": "Page number (1-based, default 1)."
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Harvard Art Museums API key (auto-injected by the platform; or pass your own)."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "object",
+    "description": "Fetch full details for one Harvard Art Museums item by id — a Harvard Art Museums object id (numeric, from search).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "e.g. \"299843\"."
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Harvard Art Museums API key (auto-injected by the platform; or pass your own)."
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  }
+]
