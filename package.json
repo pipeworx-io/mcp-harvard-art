@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-harvard-art",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Harvard Art Museums MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "harvard-art",
     "gatewaySlug": "harvard-art",
-    "sourceHash": "v1-05053f7eb7c6b09d0f795a852676826fffea1b8e300439cfbe757fe8927dc182",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-5f98b8e219aa5f2b83500c7ac9019a070ebf0655347ba3f0b19986bb5bca9c70",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
